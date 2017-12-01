@@ -11,10 +11,7 @@ namespace CardViewRecyclerView.Helper
         public TextView Title, Count;
         public ImageView Thumbnail, Overflow;
         public AlbumViewHolder(IntPtr javaReference, JniHandleOwnership transfer) : base(javaReference, transfer)
-        {
-
-        }
-
+        {}
         public AlbumViewHolder(View itemView) : base(itemView)
         {
             Title = itemView.FindViewById<TextView>(Resource.Id.title);

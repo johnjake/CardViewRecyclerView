@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using Android.Content;
 using Android.Support.V7.Widget;
 using Android.Views;
@@ -54,13 +53,12 @@ namespace CardViewRecyclerView.Adapter
             var inflater = _popUp.MenuInflater;
             inflater.Inflate(Resource.Menu.menu_album, _popUp.Menu);
             _popUp.SetOnMenuItemClickListener(this);
+            _popUp.Show();
         }
-
-
         public bool OnMenuItemClick(IMenuItem item)
         {
-            _popUp.Show();
-            return true;
+            var mClick = new PopUpMenuItemClickListener(_mContext);
+            return mClick.OnMenuItemClick(item);
         }
     }
 }

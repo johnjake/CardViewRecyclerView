@@ -121,6 +121,10 @@
   <ItemGroup>
     <Compile Include="Adapter\AlbumsAdapter.cs" />
     <Compile Include="Helper\AlbumViewHolder.cs" />
+    <Compile Include="Helper\GridSpacingItemDecoration.cs" />
+    <Compile Include="Helper\ImageLoader.cs" />
+    <Compile Include="Helper\PopUpMenuItemClickListener.cs" />
+    <Compile Include="Helper\PreDrawListener.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Model\Album.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
