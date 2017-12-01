@@ -96,7 +96,7 @@ namespace CardViewRecyclerView
             {
                 Resource.Drawable.album1,
                 Resource.Drawable.album2,
-                int.Parse("https://upload.wikimedia.org/wikipedia/en/4/47/Please_Come_Home_for_Christmas_%28Bon_Jovi%29_coverart.jpg"),
+                Resource.Drawable.album3,
                 Resource.Drawable.album4,
                 Resource.Drawable.album5,
                 Resource.Drawable.album6,
