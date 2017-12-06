@@ -1,5 +1,5 @@
 
-Sample Project on Xamarin Android How to create Collapsible AppBar (Toolbar) with CardView as a content of RecyclerView. 
+Sample Project on Xamarin Android on how to create Collapsible AppBar (Toolbar) with CardView as a content of RecyclerView. 
 
 If you would like to use url instead of Image in Drawable just change the method PopulateAlbum(); using
 
